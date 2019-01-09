@@ -5,7 +5,7 @@ const Contact = ({email, description}) => {
   return (
     <div
       className='content'
-      style={{border: '1px solid #eaecee', padding: '2em 4em'}}>
+      style={{border: '4px solid red', padding: '2em 4em'}}>
       <p><a href={`mailto:${email}`}>{email}</a></p>
       <p>{description}</p>
     </div>
